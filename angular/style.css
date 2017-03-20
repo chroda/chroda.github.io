@@ -1,0 +1,28 @@
+.jumbotron {
+	width: 400px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2em;
+}
+
+.form-control {
+	margin-bottom: 5px;
+}
+
+.done {
+	text-decoration: line-through;
+	color: #ff0000;
+}
+
+ul {
+	list-style: none;
+}
+
+h3 {
+	text-align: center;
+}
+
+.btn-danger {
+	margin-top: 5px;
+}
