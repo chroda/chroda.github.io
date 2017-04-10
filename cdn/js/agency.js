@@ -36,7 +36,7 @@ $(window).load( function(){
     dir+'portfolio/formerjob_softmak.png',
     dir+'portfolio/formerjob_softmak_modal.png',
     dir+'portfolio/formerjob_viaartistica.png',
-    dir+'team/chroda.jpg',
+    dir+'team/chroda.jpeg',
   ]);
 });
 
@@ -46,7 +46,7 @@ function skillProgress(skillId,skillValue){
     strokeWidth: 4,
     trailWidth: 1,
     easing: 'easeInOut',
-    duration: 1000,
+    duration: 2000,
     from: { color: '#C0262C', width:4},
     to: { color: '#C0262C', width:4},
     step: function(state, circle) {
@@ -62,15 +62,18 @@ function skillProgress(skillId,skillValue){
   bar.animate(skillValue);
 }
 
-skillProgress(php,.7);
-skillProgress(js,.7);
-skillProgress(jquery,.85);
-skillProgress(html5,.9);
-skillProgress(css3,.9);
+skillProgress(php,.83);
+skillProgress(html5,.92);
+skillProgress(css3,.91);
 skillProgress(mysql,.6);
-skillProgress(mongodb,.4);
+skillProgress(mongodb,.7);
 skillProgress(firebase,.5);
-skillProgress(git,.65);
-skillProgress(linux,.48);
-skillProgress(nodejs,.2);
-skillProgress(angularjs,.3);
+skillProgress(git,.75);
+skillProgress(linux,.58);
+skillProgress(js,.72);
+skillProgress(nodejs,.5);
+skillProgress(jquery,.85);
+skillProgress(angular,.5);
+skillProgress(react,.2);
+skillProgress(vue,.01);
+skillProgress(express,.1);
