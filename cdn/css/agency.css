@@ -788,5 +788,12 @@ ul.contact-buttons li a:active i.fa-inverse {
 }
 
 .skillCircle{
-  margin:10px 0;
+  margin: 5px 0;
+  width: 20%;
+  float: left;
+}
+@media (max-width:768px) {
+  .skillCircle {
+    width: 31%;
+  }
 }
