@@ -74,6 +74,7 @@ skillProgress(js,.72);
 skillProgress(nodejs,.5);
 skillProgress(jquery,.85);
 skillProgress(angular,.5);
+skillProgress(vue,.4);
 skillProgress(react,.2);
 skillProgress(ionic,.41);
 skillProgress(express,.1);
