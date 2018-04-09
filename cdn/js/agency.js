@@ -78,3 +78,4 @@ skillProgress(vue,.4);
 skillProgress(react,.2);
 skillProgress(ionic,.41);
 skillProgress(express,.1);
+skillProgress(sass,.3);
