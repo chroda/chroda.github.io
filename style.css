@@ -8,9 +8,11 @@ body{
   justify-content: center;
   font-family: monospace;
   text-transform: lowercase;
-  color: firebrick;
+  background-color: firebrick;
 }
 div.content{
+  background-color: whitesmoke;
+  color: firebrick;
   width: 100%;
   text-align: center;
 }
