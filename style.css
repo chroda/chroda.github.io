@@ -15,6 +15,7 @@ div.content{
   color: firebrick;
   width: 100%;
   text-align: center;
+  box-shadow: 0px 0px 1000px 1000px whitesmoke;
 }
 a{
   color: firebrick;
