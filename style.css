@@ -8,7 +8,7 @@ body{
   justify-content: center;
   font-family: monospace;
   text-transform: lowercase;
-  background-color: whitesmoke;
+  background-color: firebrick;
 }
 div.content{
   background-color: whitesmoke;
