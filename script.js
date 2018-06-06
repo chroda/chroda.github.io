@@ -28,7 +28,7 @@ function record(context) {
 
       average = values / length;
       document.getElementById("outputEl").style.boxShadow = `0px 0px ${average.toFixed()+1*4}px ${average.toFixed()+1*4}px whitesmoke`;
-      average = values = 0;
+      average = values = 1000;
     };
 
     var input = context.createMediaStreamSource(stream);
